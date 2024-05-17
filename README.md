@@ -1,7 +1,8 @@
 # Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments
 
+***Repository for the journal extension under review***
+
 Paper initially presented at [2023 Adaptive and Learning Agents Workshop](https://alaworkshop2023.github.io/#accepted) at AAMAS, London, UK
-***Repository for to the journal extension under review***
 
 Preliminar results are available at:
 - [Ala Workshop domain](https://alaworkshop2023.github.io/papers/ALA2023_paper_47.pdf)
