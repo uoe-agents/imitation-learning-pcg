@@ -33,18 +33,19 @@ pip install -r requirements.txt
 ```
 
 ## Code structure 
+The implementation is based on the code provided in [`rl-starter-files`](https://github.com/lcswillems/rl-starter-files) repository, which we subsequently modified for our research purposes. Additionally, we adapted the original TensorFlow [`RAPID`](https://github.com/daochenzha/rapid) implementation to PyTorch. Therefore, while inspired by these sources, the core code is our own.
 ```
 pytorch_pcg_il
 ├──gym_minigrid                       # gym_minigrid env logic
 ├──numpyworldfiles                    # Place where different buffers are expected to be placed                      
 ├──scripts                      
     ├──train.py                       # Used to launch a training. Here the hyperparameters can be found
-├── storage                           # Used to store the results of a given run
+├── storage                           # Used to store the results of a given run/simulation/experiment
 ├── torch_ac                          # Contains the whole logic of the code
 │   ├── algos                         # Algorithms used in the project
         ├── ppo.py                    # Used for PPO logic and IL updates
-        ├── base.py                   # Collects the data and process them to be later processed in ppo or train.py
-│   └── utils                         # Algorithms used in the project
+        ├── base.py                   # Collects the data and process them to be later processed in ppo.py or train.py
+│   └── utils                         # Util algorithmic features
         ├── intrinsic_motivation.py   # Implements tabular BeBold/NovelD logic
         ├── ranking_bufer.py          # Used by RAPID (for baselines and data collection)
 ├── utils.py                          # Util functions used through code
