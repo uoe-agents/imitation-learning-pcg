@@ -1,22 +1,22 @@
 # Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments
 
-***Repository for the journal extension under review***
+This is the official repository of the paper [Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments](https://doi.org/10.1016/j.neucom.2024.129079) which was previously presented at [2023 Adaptive and Learning Agents Workshop](https://alaworkshop2023.github.io/#accepted) at AAMAS, London, UK. 
 
-Paper initially presented at [2023 Adaptive and Learning Agents Workshop](https://alaworkshop2023.github.io/#accepted) at AAMAS, London, UK
-
-Preliminar results are available at:
-- [Ala Workshop domain](https://alaworkshop2023.github.io/papers/ALA2023_paper_47.pdf)
-- [Arxiv](https://arxiv.org/pdf/2304.09825)
+In this research, we explore the role of Imitation Learning as a strategy to speed up the learning process for RL-driven agents in complex, procedurally generated environments. We focus on scenarios where generalization is not just beneficial but a critical necessity, aiming to leverage offline data to enhance learning efficiency and performance.
 
 ## Citation
 ```
-@article{andres2023using,
-  title={Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments},
-  author={Andres, Alain and Sch{\"a}fer, Lukas and Villar-Rodriguez, Esther and Albrecht, Stefano V and Del Ser, Javier},
-  journal={arXiv preprint arXiv:2304.09825},
-  year={2023}
+@article{ANDRES2024129079,
+title = {Using offline data to speed up Reinforcement Learning in procedurally generated environments},
+journal = {Neurocomputing},
+pages = {129079},
+year = {2024},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2024.129079},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231224018502},
+author = {Alain Andres and Lukas Schäfer and Stefano V. Albrecht and Javier {Del Ser}},
+keywords = {Reinforcement Learning, Imitation Learning, Procedurally generated environments, Generalization, Diversity},
 }
-
 ```
 
 ## Dependencies
