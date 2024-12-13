@@ -1,16 +1,17 @@
 # Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments
 
-This is the official repository of the paper [Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments](https://doi.org/10.1016/j.neucom.2024.129079), which has been accepted and is now available in the [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) journal. This paper extends the content previously presented at [2023 Adaptive and Learning Agents Workshop](https://alaworkshop2023.github.io/#accepted) during the 2023 AAMAS conference in London (UK). 
+This is the official repository of the paper [Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments](https://doi.org/10.1016/j.neucom.2024.129079), which has been accepted and is now available in the [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) journal. This paper extends the content previously presented at [Adaptive and Learning Agents Workshop](https://alaworkshop2023.github.io/#accepted) during the 2023 AAMAS conference in London (UK). 
 
 In this research, we explore the role of Imitation Learning as a strategy to speed up the learning process for RL-driven agents in complex, procedurally generated environments. We focus on scenarios where generalization is not just beneficial but a critical necessity, aiming to leverage offline data to enhance learning efficiency and performance.
 
 ## Citation
 ```
-@article{ANDRES2024129079,
+@article{ANDRES2025129079,
 title = {Using offline data to speed up Reinforcement Learning in procedurally generated environments},
 journal = {Neurocomputing},
+volume = {618},
 pages = {129079},
-year = {2024},
+year = {2025},
 issn = {0925-2312},
 doi = {https://doi.org/10.1016/j.neucom.2024.129079},
 url = {https://www.sciencedirect.com/science/article/pii/S0925231224018502},
